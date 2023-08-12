@@ -1,11 +1,12 @@
-import * as model from './model';
-import recipeView from './views/recipeView';
-import searchView from './views/searchView';
-import resultView from './views/resultView';
-import paginationView from './views/paginationView';
+import * as model from './model.js';
+import recipeView from './views/recipeView.js';
+import searchView from './views/searchView.js';
+import resultView from './views/resultView.js';
+import paginationView from './views/paginationView.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
+import { async } from 'regenerator-runtime';
 
 const controlRecipes = async function () {
   try {
